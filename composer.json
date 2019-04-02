@@ -1,49 +1,50 @@
 {
-    "name": "kidzen/yii2-dynamicform",
-    "description": "It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.",
-    "keywords": [
-        "kidzen",
-        "yii2",
-        "extension",
-        "widget",
-        "yii2-dynamicform",
-        "copy DOM element",
-        "yii2 dynamic form"
-    ],
-    "type": "yii2-extension",
-    "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/kidzen/yii2-dynamicform/issues",
-        "wiki": "https://github.com/kidzen/yii2-dynamicform/wiki/",
-        "source": "https://github.com/kidzen/yii2-dynamicform"
-    },
-    "authors": [
-        {
-            "name": "kidzen",
-            "email": "kidzenfxc@gmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/kidzen/yii2-dynamicform"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.5",
-        "symfony/dom-crawler": "~3.4.11",
-        "symfony/css-selector": "~3.4.11"
-    },
-    "require-dev": {
-        "yiisoft/yii2-codeception": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "kidzen\\dynamicform\\": "src"
-        }
+  "name": "kidzen/yii2-dynamicform",
+  "description": "It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.",
+  "keywords": [
+    "kidzen",
+    "yii2",
+    "extension",
+    "widget",
+    "yii2-dynamicform",
+    "copy DOM element",
+    "yii2 dynamic form"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/kidzen/yii2-dynamicform/issues",
+    "wiki": "https://github.com/kidzen/yii2-dynamicform/wiki/",
+    "source": "https://github.com/kidzen/yii2-dynamicform"
+  },
+  "authors": [
+    {
+      "name": "kidzen",
+      "email": "kidzenfxc@gmail.com"
     }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/kidzen/yii2-dynamicform"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.5",
+    "symfony/dom-crawler": "~3.4.11",
+    "symfony/css-selector": "^4",
+    "kidzen/yii2-dynamicform": "dev-master"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kidzen\\dynamicform\\": "src"
+    }
+  }
 }
